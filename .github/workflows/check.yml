@@ -5,7 +5,7 @@ on:
   #    但 README 和博客教程都写着「每 30 分钟自动更新」——对不上。
   #    这就是「第一次跑完，后面再也不自动执行」的原因。这里补上定时。
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "*/5 * * * *"
   workflow_dispatch:
 
 permissions:

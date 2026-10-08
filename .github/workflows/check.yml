@@ -39,7 +39,7 @@ jobs:
           # ⚠️⚠️ 必须改！原文件写「不要改动」，那是错的 ——
           #   这里不填你自己的检测 Worker，89 个节点会全部报「Worker 异常」，任务直接 FATAL。
           #   格式：https://你的Worker域名/check?sstp=vpn:vpn@
-          CHECK_WORKER: "https://请填入你自己的检测Worker域名/check?sstp=vpn:vpn@"
+          CHECK_WORKER: "https://divine-hat-bfbc.pwblovecy.workers.dev/check?sstp=vpn:vpn@"
           CHECK_CONCURRENCY: "32"
           CHECK_TIMEOUT: "90"
 
